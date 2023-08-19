@@ -33,7 +33,7 @@ def main():
 
         with col2:
             # Display the podcast episode image
-            st.image(podcast_info['podcast_details']['episode_image'], width=300)
+            st.image(podcast_info['podcast_details']['episode_image'], width=300, use_column_width=True)
 
         # Display the podcast guest and their details
         guest_info = podcast_info['podcast_guest']
